@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="caseStudies_18">
+<!-- Suite -->
+<test name="CaseStudy_1">
+<parameter name="url" value="https://www.ebay.com/"/>
+<parameter name="firstname" value="smith"/>
+<parameter name="lastname" value="kim"/>
+<parameter name="email_id" value="test@test.com"/>
+<parameter name="password" value="mercury1!"/>
+<classes>
+<class name="com.qa.testscripts.CaseStudy1_Ebay"/>
+</classes>
+</test>
+
+<!-- Test -->
+<test name="CaseStudy_3">
+<parameter name="url" value="http://destinationqa.com/aut/RadioButtons.html/"/>
+<classes>
+<class name="com.qa.testscripts.CaseStudy3_Destinationqa"/>
+</classes>
+</test>
+
+<!-- Test -->
+<test name="CaseStudy_4">
+<parameter name="url" value="https://www.rediff.com/"/>
+<classes>
+<class name="com.qa.testscripts.CaseStudy4_Rediff"/>
+</classes>
+</test>
+
+<!-- Test -->
+<test name="CaseStudy_5">
+<parameter name="url" value="https://www.google.co.in/"/>
+<classes>
+<class name="com.qa.testscripts.CaseStudy5_Google"/>
+</classes>
+</test>
+
+<!-- Test -->
+<test name="CaseStudy_6">
+<parameter name="url" value="https://www.amazon.in/"/>
+<classes>
+<class name="com.qa.testscripts.CaseStudy6_Amazon"/>
+</classes>
+</test>
+
+<!-- Test -->
+<test name="CaseStudy_7">
+<parameter name="url" value="http://demo.guru99.com/test/newtours/"/>
+<classes>
+<class name="com.qa.testscripts.CaseStudy7_Guru99"/>
+</classes>
+</test>
+
+<!-- Test -->
+<test name="CaseStudy_8">
+<parameter name="url" value="http://demo.guru99.com/test/newtours/"/>
+<classes>
+<class name="com.qa.testscripts.CaseStudy8_Guru99"/>
+</classes>
+</test>
+
+<!-- Test -->
+<test name="CaseStudy_9">
+<parameter name="url" value="http://demo.guru99.com/test/newtours/"/>
+<classes>
+<class name="com.qa.testscripts.CaseStudy9_Guru99"/>
+</classes>
+</test>
+
+<!-- Test -->
+<test name="CaseStudy_10">
+<parameter name="url" value="https://www.google.co.in/"/>
+<classes>
+<class name="com.qa.testscripts.CaseStudy5_Google"/>
+</classes>
+</test>
+
+<!-- Test -->
+<test name="CaseStudy_11">
+<parameter name="url" value="https://www.gmail.co.in/"/>
+<classes>
+<class name="com.qa.testscripts.CaseStudy11_Gmail"/>
+</classes>
+</test>
+
+<!-- Test -->
+<test name="CaseStudy_13">
+<parameter name="url" value="https://www.fedex.com/en-in/home.html"/>
+<classes>
+<class name="com.qa.testscripts.CaseStudy13_FedEx"/>
+</classes>
+</test>
+
+<!-- Test -->
+<test name="CaseStudy_15">
+<parameter name="url" value="C:\\Users\\DELL\Downloads\\popup1.html"/>
+<classes>
+<class name="com.qa.testscripts.CaseStudy15_Popup"/>
+</classes>
+</test>
+
+<!-- Test -->
+<test name="CaseStudy_16">
+<parameter name="url" value="C:\\Users\\DELL\Downloads\\popup1.html"/>
+<classes>
+<class name="com.qa.testscripts.CaseStudy16_Popup"/>
+</classes>
+</test>
+
+<!-- Test -->
+<test name="CaseStudy_17">
+<parameter name="url" value="C:\\Users\\DELL\Downloads\\popup3.html"/>
+<classes>
+<class name="com.qa.testscripts.CaseStudy17_Popup"/>
+</classes>
+</test>
+
+<!-- Test -->
+
+
+
+<test name="CaseStudy_18">
+<parameter name="url" value="http://demo.guru99.com/test/newtours/"/>
+<classes>
+<class name="com.qa.testscripts.CaseStudy18_Guru99"/>
+</classes>
+</test>
+<!-- Test -->
+
+
+</suite>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [caseStudies_18]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="CaseStudy_1(failed)">
+    <parameter name="email_id" value="test@test.com"/>
+    <parameter name="firstname" value="smith"/>
+    <parameter name="password" value="mercury1!"/>
+    <parameter name="url" value="https://www.ebay.com/"/>
+    <parameter name="lastname" value="kim"/>
+    <classes>
+      <class name="com.qa.testscripts.CaseStudy1_Ebay">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="ebay" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.qa.testscripts.CaseStudy1_Ebay -->
+    </classes>
+  </test> <!-- CaseStudy_1(failed) -->
+  <test thread-count="5" name="CaseStudy_16(failed)">
+    <parameter name="url" value="C:\\Users\\DELL\Downloads\\popup1.html"/>
+    <classes>
+      <class name="com.qa.testscripts.CaseStudy16_Popup">
+        <methods>
+          <include name="setUp"/>
+          <include name="pop2" invocation-numbers="0"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.qa.testscripts.CaseStudy16_Popup -->
+    </classes>
+  </test> <!-- CaseStudy_16(failed) -->
+</suite> <!-- Failed suite [caseStudies_18] -->
